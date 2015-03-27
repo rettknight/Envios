@@ -27,7 +27,7 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: envio
+  database: envios
   username: root
   password:
   host: 127.0.0.1
