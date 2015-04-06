@@ -69,6 +69,7 @@ class EnviosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def envio_params
-      params[:envio]
+      params[:envio].permit(:status,:reference,:origin,:destiny,:department,:comments,:date,:idUser,:idTransport,:idDetail)
+      
     end
 end
